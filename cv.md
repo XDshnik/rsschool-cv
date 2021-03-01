@@ -20,7 +20,7 @@ work and live in Minsk (Belarus) as a technical support engineer.
 
 ## 3. About me 🤓
 
-I want to become a worthy developer-aka-mentor in a good team, I'm good at communication,  
+I want to become a worthy *developer-aka-mentor* in a good team, I'm good at communication,  
 attentive to what others say, always offer my point of view if I have something to say.   
 It's easy to me to teach other people if I understand the topic. People always mention  
 that I can explain everything and everyone will easily understand It.
@@ -28,7 +28,8 @@ that I can explain everything and everyone will easily understand It.
 ## 4. Skills 💪🏻
 
 C++, Java, SQL and Python on the university level,  
-HTML+CSS on a basic level, never touched JavaScript before,  
+HTML+CSS on a basic level, made a couple of sites from a `.psd` layout.
+Never touched JavaScript before.
 English on a B2 level.  
 I use Photoshop everyday at work because I work a lot with graphic  
 elements and they usually need time to make them looking good.  
