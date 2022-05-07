@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="./css/normalize.css">-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Curriculum Vitae</title>
+</head>
+<body>
+    <!--<div class="offset">
+    </div>-->
+        <div class="paper">
+
+        <header>
+            <div class="class1">
+                <div class="class2">
+                    <h1>Pavel Piashcherau</h1>
+                </div>
+                
+                <div class="class3">
+                    <h1 class="h2_cv">My Curriculum Vitae</h1>
+                </div>
+
+                <div class="myphoto_box">
+                    <img class="myphoto" src="./img/avatar.jpg" alt="Serious me" title="I can be serious sometimes :)">
+                </div>
+
+            </div>
+            
+
+        </header>
+
+        <div class="hr_left_to_right">
+            <hr>
+        </div>
+        
+        <main>
+            <div class="class1">
+                
+            <ol>
+                <li>
+                    I am ... 👀
+                    <div class="description">
+                        <p>Hi! My name is Pavel. I'm a 23 y.o. high-graduated guy with a lot of hobbies. I work and live in Minsk (Belarus)
+                           as a technical support engineer in a distributor company that supplies the equipment for industrial automation.</p>
+                    </div>
+                </li>
+
+                
+                <li>
+                    Contacts 📨
+                    <div class="description">
+                        <ul>
+                            <li class="simple_li">Git: xdshnik</li>
+                            <li class="simple_li">Discord: xdshnik#5662</li>
+                            <li class="simple_li">Telegram: @cy666ota</li>
+                            <li class="simple_li">Skype: pesheroff</li>
+                            <li class="simple_li">VK: ac4dc.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    About me 🤓
+                    <div class="description">
+                        <p>
+                            I like to ride a bike in picturesque places, I love mountains, forests and outdoor recreation.<br>
+                            I play the guitar and sing, shoot and edit videos (check out my <a href="https://www.youtube.com/channel/UCX2_R4v5KSJse27QDqfsEHg" title="Pavel Piashcherau Official YouTube Channel">YouTube channel</a>). <br>
+                            In 2019, I participated in the filming of the amateur film <a href="https://www.youtube.com/watch?v=cGX2dDqRMsE" title="Good Old Times Trailer">"Good Old Times"</a><br>
+                            as a director and cameraman, I have an idea of how to shoot well :)<br>
+                            Since 2017 for 2019 I took part in "Minsk Half Marathon"; In 2017, I ran only 5.5 km, but every year I increased this distance, so in 2019 I was able to run 21.5 kilometers. <br>
+                            The main experience was the pleasure of running through the beautiful places of the city, accompanied by the support of the spectators-fans of the half marathon.<br>
+                            The management of the company considers me as a leader, as I take the initiative to organize cultural and mass entertainment events in the office and everything that other colleagues do not want to do,
+                            I will hear everyone who needs help and come to rescue them anytime.<br>
+                            <br>
+                            I also have a category B driver's license (🚗,🚚) with a couple of months of experience, driving a service Skoda Rapid carefully.<br>
+                            I have a III (third) group in electrical safety, but soon I will study for the IV (fourth) group in order to become responsible for electrical facilities in my organization (the organization has electrical installations up to 1000 volts on its balance sheet).<br>
+                            <br>
+                            I want to become a worthy <i>developer-aka-mentor</i> in a good team, I'm good at communication,
+                            attentive to what others say, always offer my point of view if I have something to say.
+                            It's easy to me to teach other people if I understand the topic. People always mention
+                            that I can explain everything and everyone will easily understand It.
+                        </p>
+                    </div>
+                </li>  
+                <li>
+                    Skills 💪🏻
+                    <div class="description">
+                        <p>
+                            Programming languages: C++, Java, SQL and Python at the beginner level, HTML+CSS on a basic level, I made a couple of sites
+                            from a <em>.psd</em> layouts. English on a B2 level. I use Photoshop everyday at work because I work a lot with graphic elements and they usually need time to make them 
+                            looking good.<br>
+                            <br>
+                            As for my work, I have four years of experience in the field of industrial automation (2018 - present time), I set up frequency invertors, vision cameras, I can select equipment specifications for a specific task, I also program PLC's and HMI's, I advise customers on technical issues by phone, I draw up competent technical documentation and operation manuals.
+                            Passed urgent military service in the army for a period of 1 year, a private in the reserve of the Communications troops of the Republic of Belarus.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Code examples 👨‍💻
+                    <div class="description">
+                        <p>
+                            The following code snippet is a part of Weintek HMI's macros which used in one of the industrial printing projects.
+                            It determines the vacant number when user creats a new recipe item for the typography and assigns it to that new item.
+                        </p>
+                    
+                        <pre>    
+RecipeQuery("SELECT * FROM Cameras", total_row)
+  if total_row == 1 then
+    free_num = 1
+  else
+    for i = 1 to 128 step 1
+      for j = 0 to total_row step 1
+        RecipeGetData(num, "Cameras.number",j)
+        if num == i then
+          break
+      end if
+      next j
+      if j >= total_row then
+        free_num = i
+        break
+      end if
+    next i
+  end if       
+                        </pre> 
+                    </div>   
+                </li>
+                <li>
+                    Experience 🧘‍♂️
+                    <div class="description">
+                        <p>
+                            I have been working for two years in a company that distributes industrial automation  
+                            components(IAC), my job is to program controllers, programmable terminals(PT) and other  
+                            IAC using an IEC 61131-3 standard. When I am entrusted with a project to develop UX+UI  
+                            for PT I put my heart and soul at first into usability and then into design, combining  
+                            colors, fonts, indents in the design so that the user has a good impression of using  
+                            the equipment we distribute. I do this because I believe it increases company's lead  
+                            to compete at the industry market.<br>
+                            Worked with Omron PLC's: CP1L, NX1P controllers; Omron and Weintek HMI's: NB-, NA-series panels and cMT-series HMI also.
+                            I can easily program any other controllers and panels for woodworking, automatic cutting, sanding, especially greenhouse and ventilation control tasks.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Education 🎓
+                    <div class="description">
+                        <h3>SHORTENED: BSUIR - FITC - ITCSE</h3>
+                        <p>
+                            Belarusian State University of Informatics and Radioelectronics,  
+                            Faculty of Information Technologies and Control,  
+                            Speciality - Information Technologies and Control in Systems Engineering.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Language 💁🏻‍♂️
+                    <div class="description">
+                        <p>
+                           I studied with an English tutor for 6 years and have good results in mastering the English language. 
+                           Now I can easily read technical documentation in English, watch films without translation, and discuss 
+                           any topic with others. Throughout the year I attended an English language club at the <a href="https://fialta.org/english/" title="Non-governmental organization Youth Center “Fialta”">Youth Center "Fialta"</a>.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </main>
+    </div>
+</div>
+        <footer>
+            <div class="container">
+                <p class="footers_p">© Pavel Piashcherau, 2022. GitHub <a href="https://github.com/XDshnik">XDshnik</a></p>
+            </div>
+            
+            
+        </footer> 
+    
+</body>
+</html>
